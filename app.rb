@@ -10,7 +10,9 @@ class App < Sinatra::Base
   
   post '/cheer' do 
     erb :cheer
-    
   end
+  
+  arr = []
+  arr << params{
 
 end
